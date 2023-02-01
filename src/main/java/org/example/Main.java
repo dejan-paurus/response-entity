@@ -7,6 +7,7 @@ public class Main {
     System.out.println("Contract: " + create(new Contract()).getId());
   }
 
+  // Create API call
   public static EntityReponse create(EntityReponse entity) {
     return entity;
   }
